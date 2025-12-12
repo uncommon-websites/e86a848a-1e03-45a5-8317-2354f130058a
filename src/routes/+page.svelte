@@ -34,17 +34,17 @@
 	<header class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
 		<div class="flex items-center gap-2">
 			<!-- Logo Icon -->
-			<div class="text-blue-600">
+			<div class="text-primary-600">
 				<svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
 					<path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM12 22C10.9 22 10 21.1 10 20C10 18.9 10.9 18 12 18C13.1 18 14 18.9 14 20C14 21.1 13.1 22 12 22ZM6 12C6 10.9 5.1 10 4 10C2.9 10 2 10.9 2 12C2 13.1 2.9 14 4 14C5.1 14 6 13.1 6 12ZM22 12C22 13.1 21.1 14 20 14C18.9 14 18 13.1 18 12C18 10.9 18.9 10 20 10C21.1 10 22 10.9 22 12ZM17.66 7.34C18.44 6.56 19.7 6.56 20.48 7.34C21.26 8.12 21.26 9.38 20.48 10.16C19.7 10.94 18.44 10.94 17.66 10.16C16.88 9.38 16.88 8.12 17.66 7.34ZM6.34 16.66C5.56 17.44 4.3 17.44 3.52 16.66C2.74 15.88 2.74 14.62 3.52 13.84C4.3 13.06 5.56 13.06 6.34 13.84C7.12 14.62 7.12 15.88 6.34 16.66ZM16.66 17.66C15.88 18.44 15.88 19.7 16.66 20.48C17.44 21.26 18.7 21.26 19.48 20.48C20.26 19.7 20.26 18.44 19.48 17.66C18.7 16.88 18.7 15.62 17.92 14.84L16.66 17.66ZM7.34 6.34C8.12 5.56 8.12 4.3 7.34 3.52C6.56 2.74 5.3 2.74 4.52 3.52C3.74 4.3 3.74 5.56 4.52 6.34C5.3 7.12 6.56 7.12 7.34 6.34Z" />
-					<circle cx="12" cy="12" r="3" class="text-blue-500" />
+					<circle cx="12" cy="12" r="3" class="text-primary-500" />
 				</svg>
 			</div>
-			<span class="font-bold text-xl tracking-tight">Distill</span>
+			<span class="font-bold text-xl tracking-tight">Roochi</span>
 		</div>
 		<nav class="flex items-center gap-6 text-sm font-medium">
-			<a href="#" class="text-gray-600 hover:text-gray-900">Guide</a>
-			<a href="#" class="bg-gray-100 px-4 py-2 rounded-lg text-gray-900 hover:bg-gray-200 transition-colors">Login</a>
+			<a href="#" class="text-gray-600 hover:text-gray-900">Docs</a>
+			<a href="#" class="bg-gray-100 px-4 py-2 rounded-lg text-gray-900 hover:bg-gray-200 transition-colors">Sign In</a>
 		</nav>
 	</header>
 
@@ -52,31 +52,31 @@
 		<!-- Hero Section -->
 		<section class="max-w-4xl mx-auto px-6 pt-12 pb-20 text-center">
 			<div class="inline-flex items-center gap-2 text-gray-500 text-sm mb-6">
-				{@html icons.clock}
-				<span>For macOS & iOS</span>
+				{@html icons.camera}
+				<span>AI-Powered Documentation</span>
 			</div>
 			
 			<h1 class="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6 leading-[1.1]">
-				Capture once. Distill forever.
+				Turn tribal knowledge into searchable docs
 			</h1>
 			
 			<p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-				The insight-to-action loop for people who think for a living.
+				Automated screen capture and AI processing that transforms your team's expertise into instant documentation.
 			</p>
 
 			<div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-lg mx-auto mb-16">
 				<div class="relative w-full">
 					<input 
 						type="email" 
-						placeholder="Your email address" 
-						class="w-full pl-4 pr-12 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all"
+						placeholder="Your work email" 
+						class="w-full pl-4 pr-12 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
 					/>
 					<button class="absolute right-2 top-1/2 -translate-y-1/2 p-1.5 text-gray-400 hover:text-gray-600">
 						{@html icons.arrowRight}
 					</button>
 				</div>
 				<div class="text-xs text-left text-gray-500 w-full sm:w-auto shrink-0">
-					Request an invitation,<br>Distill is in limited access.
+					Start your free trial,<br>no credit card required.
 				</div>
 			</div>
 
@@ -122,166 +122,169 @@
 			<!-- Bottom Icons -->
 			<div class="flex flex-wrap justify-center gap-8 md:gap-12 text-sm font-medium text-gray-700">
 				<div class="flex items-center gap-2">
-					{@html icons.reflection}
-					<span>For reflection</span>
+					{@html icons.camera}
+					<span>Auto-capture</span>
 				</div>
 				<div class="flex items-center gap-2">
-					{@html icons.productivity}
-					<span>For productivity</span>
+					{@html icons.sparkles}
+					<span>AI processing</span>
 				</div>
 				<div class="flex items-center gap-2">
-					{@html icons.memory}
-					<span>For memory</span>
+					{@html icons.search}
+					<span>Instant search</span>
 				</div>
 				<div class="flex items-center gap-2">
-					{@html icons.clarity}
-					<span>For clarity</span>
+					{@html icons.link}
+					<span>Team sharing</span>
 				</div>
 			</div>
+		</section>
+
 		<!-- Features Grid -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
 			<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 max-w-lg leading-tight">
-				Great ideas start in quiet places, welcome to your private think space.
+				Documentation that writes itself while you work.
 			</h2>
 
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 				<!-- Card 1 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.speedometer}
+						{@html icons.camera}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Built for flow</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Fast, modern mobile and desktop apps that work offline</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Automated capture</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Screen recordings transform into step-by-step documentation automatically</p>
 					</div>
 				</div>
 
 				<!-- Card 2 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.shield}
+						{@html icons.sparkles}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Private by design</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Stored on your device and syncs with end-to-end encryption</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">AI processing</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Advanced AI extracts key information and creates searchable knowledge</p>
 					</div>
 				</div>
 
 				<!-- Card 3 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.sparkles}
+						{@html icons.search}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Works with AI</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Intelligent agents that think with you and organize your vault</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Instant search</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Find any process, conversation, or detail in seconds across all docs</p>
 					</div>
 				</div>
 
 				<!-- Card 4 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.soundwave}
+						{@html icons.speedometer}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Speak to journal</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Dictate your ideas and thoughts effortlessly</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Zero friction</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Pre-configured workflows that work immediately, no setup required</p>
 					</div>
 				</div>
 
 				<!-- Card 5 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.plus}
+						{@html icons.link}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Capture effortlessly</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Text, links, photos, screenshots, and more</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Team knowledge</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Share expertise across your team and onboard new members instantly</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Think Tank Section -->
+		<!-- CRM Intelligence Section -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
 			<div class="mb-16">
-				<span class="inline-block bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
-					With best-in-class AI
+				<span class="inline-block bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
+					Relationship Intelligence
 				</span>
-				<h2 class="text-4xl md:text-5xl font-bold text-purple-900 mb-6 tracking-tight">
-					Your personal think tank
+				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+					Capture the $50B CRM market
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Intelligent agents that organize and enhance your thinking. Your intellectual force multiplier.
+					AI-powered insights that transform customer interactions into actionable intelligence for your sales team.
 				</p>
 			</div>
 
-			<div class="bg-purple-50 rounded-3xl p-8 md:p-12 mb-16">
+			<div class="bg-primary-50 rounded-3xl p-8 md:p-12 mb-16">
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-					<!-- Left Visual: Nova Agent -->
+					<!-- Left Visual: Customer Profile -->
 					<div class="relative bg-white rounded-2xl shadow-lg p-6 overflow-hidden min-h-[300px]">
-						<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-pink-500"></div>
+						<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary-500 to-primary-600"></div>
 						<div class="flex items-center gap-3 mb-6">
-							<div class="w-10 h-10 rounded-full bg-gradient-to-br from-purple-600 to-orange-400 flex items-center justify-center text-white font-bold text-xs">
-								N
+							<div class="w-10 h-10 rounded-full bg-gradient-to-br from-primary-600 to-primary-400 flex items-center justify-center text-white font-bold text-xs">
+								AC
 							</div>
 							<div>
-								<div class="font-bold text-gray-900">Nova</div>
-								<div class="text-xs text-purple-600 font-medium uppercase tracking-wider">The Playful Explorer</div>
+								<div class="font-bold text-gray-900">Acme Corp</div>
+								<div class="text-xs text-primary-600 font-medium uppercase tracking-wider">Enterprise Account</div>
 							</div>
 						</div>
 						<div class="space-y-4 text-sm">
-							<div class="bg-purple-50 p-4 rounded-xl rounded-tl-none text-gray-800">
-								I approach life like one big fascinating experiment, asking "what if" questions that make people see things in completely new ways. I believe play and humor are powerful tools for breaking through mental barriers.
+							<div class="bg-primary-50 p-4 rounded-xl text-gray-800">
+								<div class="font-semibold mb-2">Last Interaction</div>
+								<p class="text-xs">Demo call discussing API integration needs. Key decision maker: Sarah Chen (CTO). Budget approved for Q2.</p>
 							</div>
-							<div class="flex gap-2">
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Extraverted</span>
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Intuitive</span>
+							<div class="flex gap-2 flex-wrap">
+								<span class="bg-gray-900 text-white px-3 py-1 rounded-full text-xs font-medium">Hot Lead</span>
+								<span class="bg-gray-900 text-white px-3 py-1 rounded-full text-xs font-medium">Enterprise</span>
 							</div>
-							<div class="flex gap-2">
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Thinking</span>
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Perceiving</span>
+							<div class="flex gap-2 flex-wrap">
+								<span class="bg-gray-900 text-white px-3 py-1 rounded-full text-xs font-medium">Tech Stack: React</span>
+								<span class="bg-gray-900 text-white px-3 py-1 rounded-full text-xs font-medium">Team: 50+</span>
 							</div>
 						</div>
 						<div class="mt-6">
-							<button class="w-full py-2 border border-purple-200 text-purple-700 font-medium rounded-lg hover:bg-purple-50 transition-colors">
-								Add to vault
+							<button class="w-full py-2 border border-primary-200 text-primary-700 font-medium rounded-lg hover:bg-primary-50 transition-colors">
+								View full profile
 							</button>
 						</div>
 					</div>
 
-					<!-- Right Visual: Chat Interface -->
+					<!-- Right Visual: Insights Interface -->
 					<div class="bg-white rounded-2xl shadow-lg p-6 min-h-[300px] flex flex-col">
-						<div class="flex items-center gap-2 mb-4 text-xs text-gray-400 border-b border-gray-100 pb-2 overflow-hidden whitespace-nowrap">
-							<div class="w-2 h-2 rounded-full bg-gray-300"></div>
-							<span>https://nabeelqu.substack.com/p/reflections-on-palantir</span>
+						<div class="flex items-center gap-2 mb-4 text-xs text-gray-400 border-b border-gray-100 pb-2">
+							<div class="w-2 h-2 rounded-full bg-primary-500"></div>
+							<span>AI-Generated Insights</span>
 						</div>
 						<div class="flex-1 space-y-4">
 							<div class="border border-gray-100 rounded-lg p-4">
-								<h4 class="font-bold text-gray-900 text-sm mb-1">Reflections on Palantir</h4>
-								<div class="text-xs text-gray-500 mb-2">nabeelqu.substack.com</div>
+								<h4 class="font-bold text-gray-900 text-sm mb-1">Customer Intent Analysis</h4>
+								<div class="text-xs text-gray-500 mb-2">Based on 12 interactions</div>
 								<p class="text-xs text-gray-600 line-clamp-3">
-									Chronos shares five on-site stories—from mapping Afghan IEDs to fixing Airbus delays—that show Palantir teams hacking bespoke fixes, then baking them into reusable Foundry modules.
+									Strong buying signals detected. Customer mentioned "scaling challenges" 3x in recent calls. Competitor comparison with Salesforce indicates high purchase intent.
 								</p>
 							</div>
 							<div class="flex gap-2 items-center text-xs text-gray-500">
 								<div class="flex -space-x-2">
-									<div class="w-6 h-6 rounded-full bg-gray-200 border-2 border-white"></div>
-									<div class="w-6 h-6 rounded-full bg-gray-300 border-2 border-white"></div>
+									<div class="w-6 h-6 rounded-full bg-primary-200 border-2 border-white"></div>
+									<div class="w-6 h-6 rounded-full bg-primary-300 border-2 border-white"></div>
 								</div>
-								<span>Lens and Chronos</span>
+								<span>Analyzed by AI</span>
 							</div>
 							<div class="space-y-3 pt-2">
 								<div class="flex gap-3">
 									<div class="w-6 h-6 rounded-full bg-gray-800 shrink-0"></div>
 									<div class="text-xs text-gray-800">
-										<p class="font-bold mb-1">tell me everything about rene descartes</p>
+										<p class="font-bold mb-1">What's the next best action for Acme Corp?</p>
 									</div>
 								</div>
 								<div class="flex gap-3">
-									<div class="w-6 h-6 rounded-full bg-teal-500 shrink-0"></div>
+									<div class="w-6 h-6 rounded-full bg-primary-500 shrink-0"></div>
 									<div class="text-xs text-gray-600 bg-gray-50 p-3 rounded-lg rounded-tl-none">
-										<p>AI for physical action: doubt filter, cogito reset, clarify rewrite, first-principles ladder, axis plotting, mind-body separation.</p>
+										<p>Schedule technical deep-dive with Sarah Chen. Share case study from similar fintech client. Prepare ROI calculator showing 40% time savings.</p>
 									</div>
 								</div>
 							</div>
@@ -289,47 +292,46 @@
 					</div>
 				</div>
 
-				<!-- Bottom Visual: Input Processing -->
+				<!-- Bottom Visual: Processing -->
 				<div class="bg-white rounded-2xl shadow-lg p-6 md:p-8">
 					<div class="relative mb-8">
-						<input type="text" value="What are you thinking?" class="w-full bg-gray-50 border-none rounded-xl py-4 pl-12 pr-4 text-gray-500 focus:ring-0" readonly />
+						<input type="text" value="Recording customer demo call..." class="w-full bg-gray-50 border-none rounded-xl py-4 pl-12 pr-4 text-gray-500 focus:ring-0" readonly />
 						<div class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
 							{@html icons.camera}
 						</div>
 						<div class="absolute right-4 top-1/2 -translate-y-1/2 flex gap-2 text-gray-400">
-							{@html icons.mic}
-							{@html icons.download}
+							<div class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
 						</div>
 					</div>
 
 					<div class="flex justify-center mb-8">
-						<span class="bg-gray-100 text-gray-500 text-xs px-3 py-1 rounded-full">gpt-5 is out! should we switch you to it?</span>
+						<span class="bg-gray-100 text-gray-500 text-xs px-3 py-1 rounded-full">AI is processing your screen capture</span>
 					</div>
 
-					<div class="bg-purple-50/50 rounded-xl p-6 border border-purple-100">
+					<div class="bg-primary-50/50 rounded-xl p-6 border border-primary-100">
 						<div class="space-y-3">
 							<div class="flex items-center gap-3">
-								<div class="w-3 h-3 rounded-full bg-pink-500 animate-pulse"></div>
-								<span class="text-sm text-gray-700">Nova is working</span>
+								<div class="w-3 h-3 rounded-full bg-primary-500 animate-pulse"></div>
+								<span class="text-sm text-gray-700">Roochi is analyzing</span>
 							</div>
 							<div class="flex items-start gap-3">
 								<div class="w-3 h-3 rounded-full bg-green-500 mt-1"></div>
 								<div class="text-sm text-gray-700">
-									<span class="font-medium">Nova is scanning</span> 
-									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">132 recent entries</span> 
-									to understand your context and checking 
-									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">8 lists</span> 
-									for relevant topics.
-									<p class="text-xs text-gray-500 mt-1 max-w-md">Found mentions of ChatGPT in your vault for additional context. Distill is using AI to analyze patterns and suggest relevant connections.</p>
+									<span class="font-medium">Extracted</span> 
+									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">24 key points</span> 
+									from conversation and identified 
+									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">3 action items</span> 
+									for follow-up.
+									<p class="text-xs text-gray-500 mt-1 max-w-md">Detected customer pain points around onboarding time. Roochi is cross-referencing with similar customer profiles.</p>
 								</div>
 							</div>
 							<div class="flex items-center gap-3">
 								<div class="w-3 h-3 rounded-full bg-green-500"></div>
-								<span class="text-sm text-gray-700">Added entry to <span class="bg-purple-500 text-white px-2 py-0.5 rounded text-xs font-bold">ideas</span></span>
+								<span class="text-sm text-gray-700">Created doc in <span class="bg-primary-500 text-white px-2 py-0.5 rounded text-xs font-bold">Sales Calls</span></span>
 							</div>
 							<div class="flex items-center gap-3">
 								<div class="w-3 h-3 rounded-full border-2 border-gray-300 border-t-gray-500 animate-spin"></div>
-								<span class="text-sm text-gray-500">Searching the web for <span class="text-blue-500">openai gpt-5</span></span>
+								<span class="text-sm text-gray-500">Updating CRM with <span class="text-primary-500">customer insights</span></span>
 							</div>
 						</div>
 					</div>
@@ -338,102 +340,100 @@
 
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 max-w-4xl">
 				<p class="text-xl text-gray-600 mb-6 md:col-span-2 leading-relaxed">
-					They watch your threads, spot patterns, and do the groundwork you don't have time for—mapping connections, organizing lists, and surfacing the right context on cue.
+					Roochi captures every customer interaction, extracts insights automatically, and helps your sales team close deals faster with AI-powered intelligence.
 				</p>
 				
 				<div class="space-y-4">
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
 						{@html icons.sparkles}
-						<span>Agents engage with you</span>
+						<span>Auto-capture interactions</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
 						{@html icons.target}
-						<span>Guide you towards your goals</span>
+						<span>Extract buying signals</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
 						{@html icons.plus}
-						<span>Auto-organize entries into lists</span>
+						<span>Build customer profiles</span>
 					</div>
 				</div>
 
 				<div class="space-y-4">
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
 						{@html icons.layout}
-						<span>Connect the dots across threads</span>
+						<span>Connect conversation threads</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
 						{@html icons.maximize}
-						<span>Read and summarize links</span>
+						<span>Generate action items</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
 						{@html icons.externalLink}
-						<span>Sees your screenshots</span>
+						<span>Sync with your CRM</span>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Insights to Action Section -->
+		<!-- Scale Section -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
 			<div class="mb-16">
-				<span class="inline-block bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
-					Planner
+				<span class="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
+					Built to Scale
 				</span>
-				<h2 class="text-4xl md:text-5xl font-bold text-orange-900 mb-6 tracking-tight">
-					From insights to action
+				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+					From startup to 100K users
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Agents help you break plans down, manage todos, and keep everything moving.
+					Start with your sales team, scale across your entire organization with enterprise-grade infrastructure.
 				</p>
 			</div>
 
-			<div class="bg-orange-50 rounded-3xl p-8 md:p-12 mb-16">
+			<div class="bg-gray-50 rounded-3xl p-8 md:p-12 mb-16">
 				<div class="bg-white rounded-2xl shadow-sm p-6 md:p-8 max-w-3xl mx-auto">
 					<!-- Stats -->
 					<div class="grid grid-cols-4 gap-4 mb-8">
+						<div class="bg-primary-100 p-3 rounded-xl">
+							<div class="text-xs font-bold text-primary-800 mb-1">Active Users</div>
+							<div class="text-2xl font-bold text-primary-900">2.4K</div>
+						</div>
 						<div class="bg-green-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-green-800 mb-1">Today</div>
-							<div class="text-2xl font-bold text-green-900">5</div>
-						</div>
-						<div class="bg-orange-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-orange-800 mb-1">Scheduled</div>
-							<div class="text-2xl font-bold text-orange-900">51</div>
+							<div class="text-xs font-bold text-green-800 mb-1">Docs Created</div>
+							<div class="text-2xl font-bold text-green-900">18K</div>
 						</div>
 						<div class="bg-gray-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-gray-600 mb-1">All</div>
-							<div class="text-2xl font-bold text-gray-900">56</div>
+							<div class="text-xs font-bold text-gray-600 mb-1">Searches</div>
+							<div class="text-2xl font-bold text-gray-900">45K</div>
 						</div>
 						<div class="bg-gray-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-gray-600 mb-1">Completed</div>
-							<div class="text-2xl font-bold text-gray-900">70</div>
+							<div class="text-xs font-bold text-gray-600 mb-1">Time Saved</div>
+							<div class="text-2xl font-bold text-gray-900">320h</div>
 						</div>
 					</div>
 
-					<!-- Task List -->
+					<!-- Growth Milestones -->
 					<div class="space-y-6">
 						<div>
-							<div class="text-xs font-bold text-red-500 mb-2 tracking-wide">OVERDUE</div>
+							<div class="text-xs font-bold text-primary-500 mb-2 tracking-wide">CURRENT PHASE</div>
 							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-red-500 flex items-center justify-center cursor-pointer"></div>
+								<div class="mt-1 w-5 h-5 rounded-full border-2 border-primary-500 flex items-center justify-center cursor-pointer bg-primary-500"></div>
 								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">Review quarterly budget report</h4>
-									<p class="text-xs text-gray-500 mt-1">Review and provide feedback on the Q4 budget analysis prepared by the finance team.</p>
-									<div class="text-xs text-red-500 mt-1 font-medium">YESTERDAY · 2:00 PM</div>
+									<h4 class="font-bold text-gray-900">Enterprise Sales Teams</h4>
+									<p class="text-xs text-gray-500 mt-1">Capturing tribal knowledge from sales calls, demos, and customer interactions across 50+ enterprise accounts.</p>
+									<div class="text-xs text-primary-500 mt-1 font-medium">ACTIVE · 2,400 USERS</div>
 								</div>
 							</div>
 						</div>
 
 						<div>
-							<div class="text-xs font-bold text-red-500 mb-2 tracking-wide">TODAY</div>
+							<div class="text-xs font-bold text-gray-400 mb-2 tracking-wide">NEXT MILESTONE</div>
 							<div class="flex gap-4 items-start group">
 								<div class="mt-1 w-5 h-5 rounded-full border-2 border-gray-300 group-hover:border-gray-400 cursor-pointer"></div>
 								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">40-min Zone-2 jog / easy spin</h4>
-									<p class="text-xs text-gray-500 mt-1">Perform a 40-minute Zone-2 jog or easy spin. Maintain a pace where you can converse in full sentences.</p>
+									<h4 class="font-bold text-gray-900">Customer Success Teams</h4>
+									<p class="text-xs text-gray-500 mt-1">Expand to customer success and support teams to capture onboarding workflows and troubleshooting guides.</p>
 									<div class="flex gap-2 text-xs text-gray-400 mt-1">
-										<span>TODAY · 06:00 AM</span>
-										<span>•</span>
-										<span class="flex items-center gap-1">{@html icons.repeat} REPEATS WEEKLY</span>
+										<span>TARGET · 10K USERS</span>
 									</div>
 								</div>
 							</div>
@@ -441,29 +441,29 @@
 
 						<div>
 							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-blue-500 cursor-pointer"></div>
+								<div class="mt-1 w-5 h-5 rounded-full border-2 border-gray-300 cursor-pointer"></div>
 								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">Team standup meeting</h4>
-									<p class="text-xs text-gray-500 mt-1">Daily sync with the team to discuss progress and blockers.</p>
-									<div class="text-xs text-gray-400 mt-1">TODAY · 9:00 AM</div>
+									<h4 class="font-bold text-gray-900">Product & Engineering</h4>
+									<p class="text-xs text-gray-500 mt-1">Scale to product and engineering teams for technical documentation and knowledge sharing.</p>
+									<div class="text-xs text-gray-400 mt-1">TARGET · 25K USERS</div>
 								</div>
 							</div>
 						</div>
 
 						<div>
-							<div class="text-xs font-bold text-gray-400 mb-2 tracking-wide">NO DUE DATE</div>
+							<div class="text-xs font-bold text-gray-400 mb-2 tracking-wide">LONG-TERM VISION</div>
 							<div class="space-y-3 opacity-60">
 								<div class="flex gap-4 items-center">
 									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Draft the first cut — 90-min rough draft block</span>
+									<span class="text-sm text-gray-600">Full enterprise deployment — all departments</span>
 								</div>
 								<div class="flex gap-4 items-center">
 									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Feedback loop — sit with Alex and refine the draft</span>
+									<span class="text-sm text-gray-600">Cross-company knowledge network — 100K users</span>
 								</div>
 								<div class="flex gap-4 items-center">
 									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Badminton practice</span>
+									<span class="text-sm text-gray-600">AI-powered organizational intelligence platform</span>
 								</div>
 							</div>
 						</div>
@@ -474,95 +474,95 @@
 			<div class="flex flex-col md:flex-row gap-8 md:items-start justify-between">
 				<div class="flex gap-6 text-sm font-medium text-gray-600">
 					<div class="flex items-center gap-2">
-						{@html icons.check}
-						<span>Checklists</span>
+						{@html icons.speedometer}
+						<span>Fast deployment</span>
 					</div>
 					<div class="flex items-center gap-2">
-						{@html icons.calendar}
-						<span>Scheduled events</span>
+						{@html icons.shield}
+						<span>Enterprise security</span>
 					</div>
 					<div class="flex items-center gap-2">
-						{@html icons.repeat}
-						<span>Repeating tasks</span>
+						{@html icons.target}
+						<span>Scalable infrastructure</span>
 					</div>
 				</div>
 				<p class="text-xl text-gray-600 max-w-lg leading-relaxed">
-					Capture an idea, sketch a plan, or think out loud—your agents turn it into an actionable roadmap without disrupting your flow.
+					Pre-configured workflows that work immediately. No complex setup, no training required—just instant value for your team.
 				</p>
 			</div>
 		</section>
 
-		<!-- Who uses it Section -->
+		<!-- Use Cases Section -->
 		<section class="max-w-7xl mx-auto px-6 py-20">
 			<div class="mb-16">
 				<span class="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
 					Use cases
 				</span>
 				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-					Who uses it?
+					Built for busy founders
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Distill works for anyone who needs to keep their best thinking alive- from executives to researchers to creators.
+					Roochi helps early-stage startup founders capture customer insights without spending hours on manual research.
 				</p>
 			</div>
 
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 				<!-- Card 1 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Decision logging</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Record key choices and the reasoning behind them, so you can revisit the "why" at any time.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Sales call documentation</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Automatically capture and document every sales conversation with searchable transcripts and key insights.</p>
 				</div>
 				<!-- Card 2 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Idea tracking</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Capture sparks of inspiration before they fade and connect them to ongoing work.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Customer discovery</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Record customer interviews and extract pain points, feature requests, and buying signals automatically.</p>
 				</div>
 				<!-- Card 3 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Weekly reviews</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Reflect on the past week's shifts, wins, and challenges to plan your next moves.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Product demos</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Turn product demonstrations into reusable documentation that sales teams can reference anytime.</p>
 				</div>
 				<!-- Card 4 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Story building</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Develop narratives or arguments over time by adding and refining entries in a thread.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Onboarding guides</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Create step-by-step onboarding documentation by simply recording your screen during walkthroughs.</p>
 				</div>
 
 				<!-- Card 5 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Progress tracking</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Keep a living record of milestones, blockers, and updates across projects.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Process documentation</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Capture internal processes and workflows without interrupting your team's productivity.</p>
 				</div>
 				<!-- Card 6 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Goal setting</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Define clear objectives and keep them visible as your work evolves.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Competitive intelligence</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Document competitor analysis and market research findings in a searchable knowledge base.</p>
 				</div>
 				<!-- Card 7 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Action planning</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Turn insights and ideas into a prioritized list of next steps.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Team training</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Build a library of training materials by capturing expert knowledge from your best performers.</p>
 				</div>
 				<!-- Card 8 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Strategy reviews</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Assess current direction by surfacing shifts, risks, and opportunities.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Support tickets</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Document common issues and solutions to build a comprehensive support knowledge base.</p>
 				</div>
 
 				<!-- Card 9 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Research synthesis</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Convert scattered findings into clear, connected insights.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Feature requests</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Track and organize customer feature requests with context from actual conversations.</p>
 				</div>
 				<!-- Card 10 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Meeting prep</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Walk into discussions with the relevant context and decisions at hand.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Meeting notes</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Never miss important details from customer meetings with AI-generated summaries and action items.</p>
 				</div>
 				<!-- Card 11 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Content outlining</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Shape captured thoughts into structured drafts for writing or presentations.</p>
+					<h3 class="font-bold text-gray-900 mb-2">CRM enrichment</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Automatically update your CRM with insights from every customer interaction.</p>
 				</div>
 			</div>
 		</section>
@@ -574,19 +574,19 @@
 					<h4 class="font-bold text-sm text-gray-900 mb-4">Resources</h4>
 					<div class="grid grid-cols-2 gap-x-8 gap-y-3 text-xs text-gray-600">
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.sparkles} The augmented thinker
+							{@html icons.sparkles} AI-powered documentation
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.plus} Getting started with Distill
+							{@html icons.camera} Getting started with Roochi
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.download} Import to Distill
+							{@html icons.link} CRM integrations
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.target} Make your own agents
+							{@html icons.target} Sales team best practices
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.reflection} Building a journaling habit
+							{@html icons.search} Search & discovery tips
 						</a>
 					</div>
 				</div>
@@ -600,7 +600,7 @@
 						</svg>
 					</div>
 					<div>
-						<p>Copyright © 2025 UNMS Technologies Corp.</p>
+						<p>Copyright © 2025 Roochi Inc.</p>
 						<p>All rights reserved. Terms of Service & Privacy Policy.</p>
 					</div>
 				</div>
